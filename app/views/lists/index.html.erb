@@ -1,17 +1,11 @@
 <%# buton to send to form  link send nme to new page  %>
-<div class="banner-container" >
-  <div class="banner-nav-bar">
-    <div><span class="logo-title">🎬Watch List🍿</span></div>
+<div class="cover mb-4 d-flex align-items-center justify-content-center">
+  <div class="text-center mt-5">
+    <h1>🎬Movies🍿</h1>
+    <h3 class="typed-js" data-controller="typed-js"></h3>
   </div>
 </div>
 
-<div class="banner-info">
-    <div>
-      <p class="banner-title">Movies</p>
-      <div class="btn-infos">
-
-        <p class="btn-more-info"><%= link_to "Add list", new_list_path(@bookmark) %></p>
-      </div>
-    </div>
-  </div>
+<div class="container py-5">
+  <p class="btn btn-primary text-black"><%= link_to "Add list", new_list_path(@bookmark) %></p>
 </div>

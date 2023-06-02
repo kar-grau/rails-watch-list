@@ -1,1 +1,12 @@
 
+<%# create form  allows me create new list%>
+<div class="container py5">
+  <div class="col-6 col-md-4 offset-lg-3 mt-5">
+
+      <%= simple_form_for @list do |f| %>
+          <%= f.input :name, placeholder: 'Cathegory' %>
+          <%= f.submit class: 'btn btn-primary ' %>
+      <% end %>
+
+  </div>
+</div>
